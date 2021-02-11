@@ -1,0 +1,83 @@
+{
+  "allData": [
+    {
+      "country": "IND",
+      "groupingData": [
+        {
+          "groupName": "Title",
+          "columns": [
+            {
+              "key": "Mr.",
+              "value": "Mr."
+            },
+            {
+              "key": "Ms.",
+              "value": "Ms."
+            },
+            {
+              "key": "Miss",
+              "value": "Miss"
+            }
+          ]
+        },
+        {
+          "groupName": "Identification",
+          "columns": [
+            {
+              "key": "Pancard",
+              "value": "Pan Card"
+            },
+            {
+              "key": "AadhaarCard",
+              "value": "Aadhaar Card"
+            },
+            {
+              "key": "VoterIdCard",
+              "value": "Voter Id Card"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "groupingData": [
+        {
+          "groupName": "Title",
+          "columns": [
+            {
+              "key": "Mr.",
+              "value": "Mr."
+            },
+            {
+              "key": "Ms.",
+              "value": "Ms."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "UK",
+      "groupingData": [
+        {
+          "groupName": "Title",
+          "columns": [
+            {
+              "key": "Mr.",
+              "value": "Mr."
+            },
+            {
+              "key": "Ms.",
+              "value": "Ms."
+            },
+            {
+              "key": "Miss",
+              "value": "Miss"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

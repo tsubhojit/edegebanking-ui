@@ -1,0 +1,413 @@
+{
+  "bank_id": "001",
+  "country_id": "0002",
+  "formData": {
+    "data": [
+      {
+        "groupName": "Personal Information",
+        "columns": [
+          {
+            "key": "title",
+            "label": "Title",
+            "type": "select",
+            "options": [
+              { "key": "title-select", "label": "Select", "value": "" },
+              { "key": "mr", "label": "Mr.", "value": "mr" },
+              { "key": "ms", "label": "Ms.", "value": "ms" },
+              { "key": "mrs", "label": "Mrs.", "value": "mrs" }
+            ],
+            "validations": { "required": true }
+          },
+          {
+            "key": "firstName",
+            "label": "First Name",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "middleName",
+            "label": "Middle Name",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "lastName",
+            "label": "Last Name",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "dob",
+            "label": "Date Of Birth",
+            "type": "date",
+            "validations": { "required": true }
+          },
+          {
+            "key": "nationality",
+            "label": "Nationality",
+            "type": "select",
+            "options": [
+              { "key": "nationality_select", "label": "Select", "value": "" },
+              {
+                "key": "nationality_india",
+                "label": "India",
+                "value": "india"
+              },
+              { "key": "nationality_uk", "label": "UK", "value": "uk" },
+              { "key": "nationality_usa", "label": "USA", "value": "usa" }
+            ],
+            "validations": { "required": true }
+          },
+          {
+            "key": "copr",
+            "label": "Country of Permanent Residence",
+            "type": "select",
+            "options": [
+              { "key": "copr_select", "label": "Select", "value": "" },
+              { "key": "copr_india", "label": "India", "value": "india" },
+              { "key": "copr_uk", "label": "UK", "value": "uk" },
+              { "key": "copr_usa", "label": "USA", "value": "usa" }
+            ],
+            "validations": { "required": true }
+          },
+          {
+            "key": "nin",
+            "label": "National Insurance Number (if any)",
+            "type": "number"
+          },
+          {
+            "key": "poi",
+            "label": "Proof of Identity",
+            "type": "select",
+            "options": [
+              { "key": "poi_select", "label": "Select", "value": "" },
+              { "key": "passport", "label": "Passport", "value": "passport" },
+              {
+                "key": "drivingLicense",
+                "label": "Driving License",
+                "value": "drivingLicense"
+              },
+              {
+                "key": "nationalIdentityCard",
+                "label": "National Identity Card",
+                "value": "nationalIdentityCard"
+              },
+              {
+                "key": "armedForcesIdentityCard",
+                "label": "Armed Forces Identity Card",
+                "value": "armedForcesIdentityCard"
+              }
+            ],
+            "validations": { "required": true }
+          },
+          {
+            "key": "idn",
+            "label": "Identification Document Number",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "doi_idn",
+            "label": "Date of Issue",
+            "type": "date",
+            "validations": { "required": true }
+          },
+          {
+            "key": "doe_idn",
+            "label": "Date of Expiry",
+            "type": "date",
+            "validations": { "required": true }
+          },
+          {
+            "key": "ifn",
+            "label": "If Foreign National",
+            "type": "checkbox",
+            "options": [{ "key": "yes", "label": "Yes", "value": "yes" }],
+            "validations": { "required": true }
+          },
+          {
+            "key": "vn_ifn",
+            "label": "Visa Number",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "doe_ifn",
+            "label": "Date of Expiry",
+            "type": "date",
+            "validations": { "required": true }
+          },
+          {
+            "key": "marital_status",
+            "label": "Marital Status",
+            "type": "radio",
+            "options": [
+              {
+                "key": "married",
+                "label": "Married",
+                "value": "married",
+                "name": "marital_status"
+              },
+              {
+                "key": "single",
+                "label": "Single",
+                "value": "single",
+                "name": "marital_status"
+              }
+            ],
+            "validations": { "required": true }
+          },
+          {
+            "key": "nod",
+            "label": "Number of Dependents",
+            "type": "number",
+            "validations": { "required": true }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "key": "mobNo",
+            "label": "Mobile Number",
+            "type": "number",
+            "validations": { "required": true }
+          },
+          {
+            "key": "opn",
+            "label": "Office Phone No",
+            "type": "number",
+            "validations": { "required": true }
+          },
+          {
+            "key": "oea",
+            "label": "Office Email Address",
+            "type": "email",
+            "validations": { "required": true }
+          },
+          {
+            "key": "hpn",
+            "label": "Home Phone No",
+            "type": "number",
+            "validations": { "required": true }
+          },
+          {
+            "key": "ea",
+            "label": "Email Address",
+            "type": "email",
+            "validations": { "required": true }
+          },
+          {
+            "key": "al1",
+            "label": "Address Line 1",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "al2",
+            "label": "Address Line 2",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "city",
+            "label": "City",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "city_select", "label": "Select", "value": "" },
+              { "key": "mumbai", "label": "Mumbai", "value": "mumbai" },
+              { "key": "kerala", "label": "Kerala", "value": "kerala" },
+              { "key": "kolkata", "label": "Kolkata", "value": "kolkata" }
+            ]
+          },
+          {
+            "key": "state",
+            "label": "State",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "state_select", "label": "Select", "value": "" },
+              { "key": "punjab", "label": "Punjab", "value": "punjab" },
+              { "key": "kerala", "label": "Kerala", "value": "kerala" },
+              { "key": "bihar", "label": "Bihar", "value": "bihar" }
+            ]
+          },
+          {
+            "key": "zipcode",
+            "label": "Zip code",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "country",
+            "label": "Country",
+            "type": "select",
+            "options": [
+              { "key": "country_select", "label": "Select", "value": "" },
+              { "key": "india", "label": "India", "value": "India" },
+              { "key": "uk", "label": "UK", "value": "uk" },
+              { "key": "usa", "label": "USA", "value": "usa" }
+            ],
+            "validations": { "required": true }
+          },
+          {
+            "key": "toAddr",
+            "label": "Type of Address",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "toAddr_select", "label": "Select", "value": "" },
+              { "key": "owned", "label": "Owned", "value": "owned" },
+              { "key": "rented", "label": "Rented", "value": "rented" },
+              {
+                "key": "lwfofwc",
+                "label": "Living with family or friends without contract",
+                "value": "lwfofwc"
+              }
+            ]
+          },
+          {
+            "key": "livingSince",
+            "label": "Living Since",
+            "type": "date",
+            "validations": { "required": true }
+          },
+          {
+            "key": "addrProof",
+            "label": "Address Proof",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "addrProof_select", "label": "Select", "value": "" },
+              { "key": "passport", "label": "Passport", "value": "passport" },
+              {
+                "key": "drivingLicense",
+                "label": "Driving License",
+                "value": "drivingLicense"
+              },
+              {
+                "key": "nationalIdentityCard",
+                "label": "National Identity Card",
+                "value": "nationalIdentityCard"
+              },
+              {
+                "key": "armedForcesIdentityCard",
+                "label": "Armed Forces Identity Card",
+                "value": "armedForcesIdentityCard"
+              }
+            ]
+          },
+          {
+            "key": "idn_personal",
+            "label": "Identification Document Number",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "ded",
+            "label": "Document Expiry Date",
+            "type": "date",
+            "validations": { "required": true }
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "key": "soi",
+            "label": "Source of Income",
+            "type": "checkbox",
+            "validations": { "required": true },
+            "options": [
+              { "key": "salary", "label": "Salary", "value": "salary" },
+              { "key": "business", "label": "Business", "value": "business" },
+              { "key": "pension", "label": "Pension", "value": "pension" },
+              { "key": "others", "label": "Others", "value": "others" }
+            ]
+          },
+          {
+            "key": "et",
+            "label": "Employment Type",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "et_select", "label": "Select", "value": "" },
+              { "key": "fullTime", "label": "Full Time", "value": "fullTime" },
+              { "key": "partTime", "label": "Part Time", "value": "partTime" },
+              {
+                "key": "selfEmployed",
+                "label": "Self Employed",
+                "value": "selfEmployed"
+              },
+              { "key": "retired", "label": "Retired", "value": "retired" },
+              {
+                "key": "unemployed",
+                "label": "Unemployed",
+                "value": "unemployed"
+              },
+              { "key": "student", "label": "Student", "value": "student" }
+            ]
+          },
+          {
+            "key": "gai",
+            "label": "Gross Annual Income",
+            "type": "number",
+            "validations": { "required": true }
+          },
+          {
+            "key": "eobn",
+            "label": "Employer/Business Name",
+            "type": "text",
+            "validations": { "required": true }
+          },
+          {
+            "key": "nob",
+            "label": "Nature of Business",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "nob_select", "label": "Select", "value": "" },
+              { "key": "b1", "label": "B1", "value": "b1" },
+              { "key": "b2", "label": "B2", "value": "b2" }
+            ]
+          },
+          {
+            "key": "drpt",
+            "label": "Designation/Role/Position/ Title",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "drpt_select", "label": "Select", "value": "" },
+              { "key": "d1", "label": "D1", "value": "d1" },
+              { "key": "d2", "label": "D2", "value": "d2" }
+            ]
+          },
+          {
+            "key": "pffsp",
+            "label": "Payment Frequency for salaried person",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "pffsp_select", "label": "Select", "value": "" },
+              { "key": "pf1", "label": "PF1", "value": "pf1" },
+              { "key": "pf2", "label": "PF2", "value": "pf2" }
+            ]
+          },
+          {
+            "key": "es",
+            "label": "Employed since",
+            "type": "date",
+            "validations": { "required": true }
+          },
+          {
+            "key": "eoba",
+            "label": "Employer/Business Address",
+            "type": "text",
+            "validations": { "required": true }
+          }
+        ]
+      }
+    ]
+  }
+}

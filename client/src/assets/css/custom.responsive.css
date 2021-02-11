@@ -1,0 +1,256 @@
+@media (max-width: 767.98px) {
+}
+
+/* @media (min-width: 576px) and (max-width: 767.98px) { } */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  body,
+  p,
+  #sidebar ul li a,
+  .form-control,
+  .form-control::placeholder,
+  .login-section label {
+    font-size: 15px;
+  }
+  .btn.hamburger {
+    background-size: 51%;
+    width: 30px;
+    height: 30px;
+    padding: 10px !important;
+  }
+  .h2,
+  h2 {
+    font-size: 1.7rem;
+  }
+  .login-logo {
+    background-size: 100%;
+    width: 80px;
+    top: 40px;
+    right: 40px;
+  }
+  .login-section {
+    width: 350px;
+  }
+  .username {
+    background: url(../images/username-icon.svg) no-repeat 10px 50% #ffffff;
+    padding-left: 40px;
+    background-size: 15px;
+  }
+
+  .password {
+    background: url(../images/password-icon.svg) no-repeat 10px 50% #ffffff;
+    padding-left: 40px;
+    background-size: 15px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 9px 20px !important;
+  }
+  .navbar {
+    padding: 10px 15px;
+  }
+  .navbar-brand {
+    background-size: 100%;
+    width: 128px;
+    height: 35px;
+  }
+  #sidebar {
+    min-width: 230px;
+    max-width: 230px;
+  }
+  #sidebar.active {
+    margin-left: -230px;
+  }
+  .inner-container {
+    padding: 30px;
+  }
+  #content {
+    min-height: calc(100vh - 58px);
+  }
+  .card {
+    padding: 10px;
+  }
+  .card-group .card-header {
+    height: 136px;
+  }
+  .card-group .card-header img {
+    max-width: 67%;
+    min-width: 100%;
+    height: 130px;
+  }
+  .card-group .card-body {
+    padding: 15px 0;
+  }
+  .card-group .card-body h3 {
+    font-family: "poppinsbold";
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-group .card-footer .btn {
+    padding: 12px 8px;
+  }
+  #sidebar ul li {
+    margin-bottom: 0;
+  }
+  label {
+    font-size: 15px;
+  }
+  .welcome-text {
+    font-size: 40px;
+  }
+  .welcome-text span {
+    font-size: 20px;
+  }
+  .form-control {
+    height: 42px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .login-section .form-group {
+    margin-bottom: 25px;
+  }
+  /* .accordion .card .card-header h2 .btn{
+        padding: 1rem 1.25rem !important;
+        font-size: 16px;
+    } */
+  .select-container figure {
+    width: 120px;
+  }
+  .select-container figure {
+    margin-right: 15px;
+  }
+  .select-container.country-selection figure {
+    margin-top: 5px;
+  }
+  .select-container.bank-selection figure {
+    margin-top: 15px;
+  }
+  .table,
+  thead,
+  tr,
+  th,
+  td {
+    font-size: 14px;
+  }
+  .btn-edit,
+  .btn-delete,
+  .btn-check-green {
+    background-size: 15px;
+    padding: 9px 15px !important;
+  }
+  .btn-check-green {
+    background-position-y: 8px;
+  }
+  .add-new-btn {
+    background-size: 15px;
+  }
+  .btn-add {
+    background-size: 17px;
+  }
+  .remove-btn {
+    background-size: contain;
+    top: -10px;
+    right: -21px;
+  }
+  .accordion .card .card-header .form-control {
+    width: 240px;
+    height: 32px;
+    margin-top: 11px;
+    color: #82beff;
+    font-weight: normal;
+  }
+  .accordion .card .card-header .add-new-btn {
+    top: 7px;
+    background-size: 14px;
+  }
+  .select-container figure img {
+    width: 85px;
+  }
+  /**** 11/09/2020 ****/
+  .accordion-form .card-header h5 {
+    padding: 0 0;
+  }
+  .nested-table .btn {
+    padding: 9px 10px !important;
+  }
+  .custom-data-dropdown .btn,
+  .custom-data-dropdown .btn:focus,
+  .custom-data-dropdown .btn:active {
+    height: 42px;
+  }
+  /*22-09-2020*/
+  .capture-image {
+    margin-top: -26px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
+    position: relative;
+  }
+  .capture-image label {
+    width: 73%;
+  }
+  .capture-image .dropdown-menu {
+    left: -27% !important;
+  }
+  .capture-image .dropdown-toggle,
+  .capture-image .dropdown-toggle:focus {
+    width: 73%;
+  }
+  .captured-picture {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+  }
+  .p-image {
+    width: 73px;
+    height: 73px;
+  }
+  .dropdown-footer {
+    border-top: 1px solid #97c8ff;
+    padding: 15px;
+  }
+  .dropdown-footer .btn-primary {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .dropdown-footer .btn-primary:focus,
+  .dropdown-footer .btn-primary.disabled,
+  .dropdown-footer .btn-primary:disabled,
+  .dropdown-footer .btn-primary:hover {
+    font-size: 16px;
+  }
+  .file {
+    font-size: 16px;
+  }
+  /*23-09-2020*/
+  .capture-image .dropdownToggle,
+  .capture-image .dropdownToggle:focus {
+    width: 73%;
+  }
+  .custom-data-dropdown .dropdown-menu-new {
+    top: 80px;
+  }
+}
+@media (min-width: 1401px) and (max-width: 1600px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1401px) {
+}

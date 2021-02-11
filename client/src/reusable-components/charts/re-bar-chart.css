@@ -1,0 +1,6 @@
+.bar-chart > .bar-title {
+  width: 280px;
+  margin: 20px auto;
+  font-weight: bold;
+  color: #000;
+}

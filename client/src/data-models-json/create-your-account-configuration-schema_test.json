@@ -1,0 +1,253 @@
+{
+  "allData": [
+    {
+      "country": "IND",
+      "bank": "ICICI",
+      "accountType": "Personal",
+      "groupingData": [
+        {
+          "groupName": "Personal Information",
+          "columns": [
+            {
+              "key": "title",
+              "label": "Title",
+              "type": "select",
+              "options": [
+                {
+                  "key": "title-select",
+                  "label": "Select",
+                  "value": ""
+                },
+                {
+                  "key": "mr",
+                  "label": "Mr.",
+                  "value": "mr"
+                },
+                {
+                  "key": "ms",
+                  "label": "Ms.",
+                  "value": "ms"
+                },
+                {
+                  "key": "mrs",
+                  "label": "Mrs.",
+                  "value": "mrs"
+                }
+              ],
+              "actualOptions": "Mr.,Ms.,Mrs.",
+              "showHideMultipleText": true,
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "key": "firstName",
+              "label": "First Name",
+              "type": "text"
+            },
+            {
+              "key": "dob",
+              "label": "Date Of Birth",
+              "type": "date"
+            }
+          ]
+        },
+        {
+          "groupName": "Occupational Information",
+          "columns": [
+            {
+              "key": "mobNo",
+              "label": "Mobile Number",
+              "type": "number"
+            },
+            {
+              "key": "livingSince",
+              "label": "Living Since",
+              "type": "date"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IND",
+      "bank": "ICICI",
+      "accountType": "Joint",
+      "groupingData": [
+        {
+          "groupName": "Personal Information",
+          "columns": [
+            {
+              "key": "title",
+              "label": "Title",
+              "type": "select",
+              "options": [
+                {
+                  "key": "title-select",
+                  "label": "Select",
+                  "value": ""
+                },
+                {
+                  "key": "mr",
+                  "label": "Mr.",
+                  "value": "mr"
+                },
+                {
+                  "key": "ms",
+                  "label": "Ms.",
+                  "value": "ms"
+                },
+                {
+                  "key": "mrs",
+                  "label": "Mrs.",
+                  "value": "mrs"
+                }
+              ],
+              "actualOptions": "Mr.,Ms.,Mrs.",
+              "showHideMultipleText": true,
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "key": "firstName1",
+              "label": "First Name",
+              "type": "text"
+            },
+            {
+              "key": "firstName2",
+              "label": "First Name",
+              "type": "text"
+            },
+            {
+              "key": "dob",
+              "label": "Date Of Birth",
+              "type": "date"
+            }
+          ]
+        },
+        {
+          "groupName": "Occupational Information",
+          "columns": [
+            {
+              "key": "mobNo",
+              "label": "Mobile Number",
+              "type": "number"
+            },
+            {
+              "key": "livingSince",
+              "label": "Living Since",
+              "type": "date"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "bank": "HDFC",
+      "accountType": "Personal",
+      "groupingData": [
+        {
+          "groupName": "Personal Information2",
+          "columns": [
+            {
+              "key": "name",
+              "label": "Name",
+              "type": "text",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            },
+            {
+              "key": "age",
+              "label": "Age",
+              "type": "number",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "bank": "HDFC",
+      "accountType": "Joint",
+      "groupingData": [
+        {
+          "groupName": "Personal Information2",
+          "columns": [
+            {
+              "key": "name1",
+              "label": "Name",
+              "type": "text",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            },
+            {
+              "key": "name2",
+              "label": "Name",
+              "type": "text",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            },
+            {
+              "key": "age",
+              "label": "Age",
+              "type": "number",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "UK",
+      "bank": "HDFC",
+      "accountType": "Personal",
+      "groupingData": [
+        {
+          "groupName": "Personal Information2",
+          "columns": [
+            {
+              "key": "name",
+              "label": "Name",
+              "type": "text",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            },
+            {
+              "key": "age",
+              "label": "Age",
+              "type": "number",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

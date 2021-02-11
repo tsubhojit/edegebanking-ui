@@ -1,0 +1,146 @@
+{
+  "bank_id": "001",
+  "country_id": "0002",
+  "formData": {
+    "data": [
+      {
+        "columns": [
+          {
+            "key": "name",
+            "label": "Name",
+            "error1": "Please Enter Name",
+            "validations": { "required": true },
+            "options": []
+          },
+          { "key": "age", "label": "Age", "type": "number" },
+          { "key": "dob", "label": "Date of Birth", "type": "date" },
+
+          {
+            "key": "rating",
+            "label": "Rating",
+            "type": "number",
+            "validations": { "min": 0, "max": 5 }
+          },
+          {
+            "key": "qualification",
+            "label": "Qualification"
+          },
+          {
+            "key": "gender",
+            "label": "Gender",
+            "type": "radio",
+            "validations": { "required": true },
+            "options": [
+              {
+                "key": "male",
+                "label": "Male",
+                "name": "gender",
+                "value": "male"
+              },
+              {
+                "key": "female",
+                "label": "Female",
+                "name": "gender",
+                "value": "female"
+              }
+            ]
+          },
+          {
+            "key": "city",
+            "label": "City",
+            "type": "select",
+            "validations": { "required": true },
+            "options": [
+              { "key": "select", "label": "Select", "value": "" },
+              { "key": "kolkata", "label": "Kolkata", "value": "kolkata" },
+              { "key": "mumbai", "label": "Mumbai", "value": "mumbai" },
+              { "key": "kerala", "label": "Kerala", "value": "kerala" }
+            ]
+          },
+          {
+            "key": "skills",
+            "label": "Skills",
+            "type": "checkbox",
+            "options": [
+              { "key": "reactjs", "label": "React Js", "value": "reactjs" },
+              { "key": "angular", "label": "Angular", "value": "angular" },
+              { "key": "vuejs", "label": "Vue Js", "value": "vuejs" },
+              { "key": "java", "label": "Java", "value": "java" },
+              {
+                "key": "springboot",
+                "label": "Spring Boot",
+                "value": "springboot"
+              },
+              { "key": "nodejs", "label": "Node Js", "value": "nodejs" }
+            ]
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "key": "accountNumber",
+            "label": "Account Number",
+            "error1": "Please Enter Account Number",
+            "validations": {
+              "required": true
+            }
+          },
+          {
+            "key": "panNo",
+            "label": "Pan Number",
+            "error1": "Please Enter Pan Number",
+            "error2": "Please Enter Valid Pan Number"
+          },
+          {
+            "key": "adhaar",
+            "label": "Adhaar"
+          },
+          {
+            "key": "doYouHave",
+            "label": "Do you have any relative with account in this bank?",
+            "type": "grid",
+            "showHideGrid": true,
+            "gridColumns": [
+              {
+                "key": "fatherAcc123",
+                "label": "Father's Account Information",
+                "type": "number"
+              },
+              {
+                "key": "motherAcc123",
+                "label": "Mother's Account Information",
+                "type": "email"
+              },
+              {
+                "key": "brotherAcc123",
+                "label": "Brother's Account Information",
+                "type": "date"
+              }
+            ]
+          },
+          {
+            "key": "test123",
+            "label": "Test",
+            "error1": "Please Enter Pan Number",
+            "error2": "Please Enter Valid Pan Number"
+          },
+          {
+            "key": "testabc",
+            "label": "Test abc"
+          },
+          {
+            "key": "mnop",
+            "label": "Test MNOP",
+            "error1": "Please Enter Pan Number",
+            "error2": "Please Enter Valid Pan Number"
+          },
+          {
+            "key": "mnopqrst",
+            "label": "Test QRST"
+          }
+        ]
+      }
+    ]
+  }
+}

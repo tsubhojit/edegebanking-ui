@@ -1,0 +1,420 @@
+{
+  "allData": [
+    {
+      "country": "IND",
+      "bank": "ICICI",
+      "groupingData": [
+        {
+          "groupName": "Personal Information",
+          "columns": [
+            {
+              "key": "title12345678900987665",
+              "label": "Title",
+              "type": "select",
+              "options": [
+                {
+                  "key": "title-select",
+                  "label": "Select",
+                  "value": ""
+                },
+                {
+                  "key": "mr",
+                  "label": "Mr.",
+                  "value": "mr"
+                },
+                {
+                  "key": "ms",
+                  "label": "Ms.",
+                  "value": "ms"
+                },
+                {
+                  "key": "mrs",
+                  "label": "Mrs.",
+                  "value": "mrs"
+                }
+              ],
+              "actualOptions": "Mr.,Ms.,Mrs.",
+              "showHideMultipleText": true,
+              "validations": {
+                "required": true
+              }
+            },
+            {
+              "key": "firstName",
+              "label": "First Name",
+              "type": "text"
+            },
+            {
+              "key": "middleName",
+              "label": "Middle Name",
+              "type": "text"
+            },
+            {
+              "key": "lastName",
+              "label": "Last Name",
+              "type": "text"
+            },
+            {
+              "key": "dob",
+              "label": "Date Of Birth",
+              "type": "date"
+            },
+            {
+              "key": "nationality",
+              "label": "Nationality",
+              "type": "select",
+              "options": [
+                {
+                  "key": "nationality_select",
+                  "label": "Select",
+                  "value": ""
+                },
+                {
+                  "key": "nationality_india",
+                  "label": "India",
+                  "value": "India"
+                },
+                {
+                  "key": "nationality_uk",
+                  "label": "UK",
+                  "value": "UK"
+                },
+                {
+                  "key": "nationality_usa",
+                  "label": "USA",
+                  "value": "USA"
+                }
+              ],
+              "actualOptions": "India,UK,USA",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "copr",
+              "label": "Country of Permanent Residence",
+              "type": "select",
+              "options": [
+                {
+                  "key": "copr_select",
+                  "label": "Select",
+                  "value": ""
+                },
+                {
+                  "key": "copr_india",
+                  "label": "India",
+                  "value": "India"
+                },
+                {
+                  "key": "nationality_uk",
+                  "label": "UK",
+                  "value": "UK"
+                },
+                {
+                  "key": "nationality_usa",
+                  "label": "USA",
+                  "value": "USA"
+                }
+              ],
+              "actualOptions": "India,UK,USA",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "nin",
+              "label": "National Insurance Number (if any)",
+              "type": "number"
+            },
+            {
+              "key": "poi",
+              "label": "Proof of Identity",
+              "type": "select",
+              "options": [
+                {
+                  "key": "poi_select",
+                  "label": "Select",
+                  "value": ""
+                },
+                {
+                  "key": "passport",
+                  "label": "Passport",
+                  "value": "passport"
+                },
+                {
+                  "key": "drivingLicense",
+                  "label": "Driving License",
+                  "value": "Driving License"
+                },
+                {
+                  "key": "nationalIdentityCard",
+                  "label": "National Identity Card",
+                  "value": "National Identity Card"
+                },
+                {
+                  "key": "armedForcesIdentityCard",
+                  "label": "Armed Forces Identity Card",
+                  "value": "Armed Forces Identity Card"
+                }
+              ],
+              "actualOptions": "Driving License,National Identity Card,Armed Forces Identity Card",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "idn",
+              "label": "Identification Document Number",
+              "type": "text"
+            },
+            {
+              "key": "doi_idn",
+              "label": "Date of Issue",
+              "type": "date"
+            },
+            {
+              "key": "doe_idn",
+              "label": "Date of Expiry",
+              "type": "date"
+            },
+            {
+              "key": "ifn",
+              "label": "If Foreign National",
+              "type": "checkbox",
+              "options": [
+                {
+                  "key": "yes",
+                  "label": "Yes",
+                  "value": "Yes"
+                }
+              ],
+              "actualOptions": "Yes",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "vn_ifn",
+              "label": "Visa Number",
+              "type": "text"
+            },
+            {
+              "key": "doe_ifn",
+              "label": "Date of Expiry",
+              "type": "date"
+            },
+            {
+              "key": "marital_status",
+              "label": "Marital Status",
+              "type": "radio",
+              "options": [
+                {
+                  "key": "married",
+                  "label": "Married",
+                  "value": "Married",
+                  "name": "marital_status"
+                },
+                {
+                  "key": "single",
+                  "label": "Single",
+                  "value": "Single",
+                  "name": "marital_status"
+                }
+              ],
+              "actualOptions": "Single,Married",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "nod",
+              "label": "Number of Dependents",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "groupName": "Occupational Information",
+          "columns": [
+            {
+              "key": "mobNo",
+              "label": "Mobile Number",
+              "type": "number"
+            },
+            {
+              "key": "opn",
+              "label": "Office Phone No",
+              "type": "number"
+            },
+            {
+              "key": "oea",
+              "label": "Office Email Address",
+              "type": "email"
+            },
+            {
+              "key": "hpn",
+              "label": "Home Phone No",
+              "type": "number"
+            },
+            {
+              "key": "ea",
+              "label": "Email Address",
+              "type": "email"
+            },
+            {
+              "key": "al1",
+              "label": "Address Line 1",
+              "type": "text"
+            },
+            {
+              "key": "al2",
+              "label": "Address Line 2",
+              "type": "text"
+            },
+            {
+              "key": "city",
+              "label": "City",
+              "type": "select",
+              "validations": {
+                "required": true
+              },
+              "options": [
+                {
+                  "key": "mumbai",
+                  "label": "Mumbai",
+                  "value": "Mumbai"
+                },
+                {
+                  "key": "kerala",
+                  "label": "Kerala",
+                  "value": "Kerala"
+                },
+                {
+                  "key": "kolkata",
+                  "label": "Kolkata",
+                  "value": "Kolkata"
+                }
+              ],
+              "actualOptions": "Mumbai,Kerala,Kolkata",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "state",
+              "label": "State",
+              "type": "select",
+              "validations": {
+                "required": true
+              },
+              "options": [
+                {
+                  "key": "punjab",
+                  "label": "Punjab",
+                  "value": "Punjab"
+                },
+                {
+                  "key": "kerala",
+                  "label": "Kerala",
+                  "value": "Kerala"
+                },
+                {
+                  "key": "bihar",
+                  "label": "Bihar",
+                  "value": "Bihar"
+                }
+              ],
+              "actualOptions": "Punjab,Kerala,Bihar",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "zipcode",
+              "label": "Zip code",
+              "type": "text"
+            },
+            {
+              "key": "country",
+              "label": "Country",
+              "type": "select",
+              "options": [
+                {
+                  "key": "country_select",
+                  "label": "Select",
+                  "value": ""
+                },
+                {
+                  "key": "nationality_india",
+                  "label": "India",
+                  "value": "India"
+                },
+                {
+                  "key": "nationality_uk",
+                  "label": "UK",
+                  "value": "UK"
+                },
+                {
+                  "key": "nationality_usa",
+                  "label": "USA",
+                  "value": "USA"
+                }
+              ],
+              "actualOptions": "India,UK,USA",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "toAddr",
+              "label": "Type of Address",
+              "type": "select",
+              "validations": {
+                "required": true
+              },
+              "options": [
+                {
+                  "key": "owned",
+                  "label": "Owned",
+                  "value": "Owned"
+                },
+                {
+                  "key": "rented",
+                  "label": "Rented",
+                  "value": "Rented"
+                },
+                {
+                  "key": "lwfofwc",
+                  "label": "Living with family or friends without contract",
+                  "value": "Living with family or friends without contract"
+                }
+              ],
+              "actualOptions": "Owned,Rented,Living with family or friends without contract",
+              "showHideMultipleText": true
+            },
+            {
+              "key": "livingSince",
+              "label": "Living Since",
+              "type": "date"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "bank": "HDFC",
+      "groupingData": [
+        {
+          "groupName": "Personal Information2",
+          "columns": [
+            {
+              "key": "name",
+              "label": "Name",
+              "type": "text",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            },
+            {
+              "key": "age",
+              "label": "Age",
+              "type": "number",
+              "validations": "",
+              "showHideMultipleText": false,
+              "typeOfMultipleText": "",
+              "options": [],
+              "actualOptions": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "barData": [
+    {
+      "month": "July",
+      "Synced": 56,
+      "NonSynced": 62
+    },
+    {
+      "month": "August",
+      "Synced": 90,
+      "NonSynced": 46
+    },
+    {
+      "month": "September",
+      "Synced": 40,
+      "NonSynced": 12
+    }
+  ]
+}
