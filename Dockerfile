@@ -1,22 +1,24 @@
-#FROM registry.access.redhat.com/ubi8/nodejs-12:1-52
-FROM node:12-alpine
-
-USER root
-
-RUN apk update && apk add python make g++
+FROM registry.access.redhat.com/ubi8/nodejs-12:1-36 AS builder
 
 WORKDIR /opt/app-root/src
 
-COPY . ./
+RUN mkdir client
+COPY --chown=default:root client client
+COPY client/package*.json client/
+COPY package*.json ./
+RUN npm ci
+RUN cd client && npm i && npm ci
 
-RUN cd client && npm i
-RUN cd ..
 RUN npm run build
-RUN npm i
 
-RUN cp -r client server/client
+FROM registry.access.redhat.com/ubi8/nodejs-12:1-36
 
-#WORKDIR /opt/app-root/src
+COPY --from=builder /opt/app-root/src/client/build client/build
+COPY public public
+COPY server server
+COPY client/package*.json client/
+COPY package.json .
+RUN npm install --production
 
 ENV NODE_ENV=production
 ENV HOST=0.0.0.0 PORT=3000
@@ -24,3 +26,4 @@ ENV HOST=0.0.0.0 PORT=3000
 EXPOSE 3000/tcp
 
 CMD ["npm", "start"]
+
